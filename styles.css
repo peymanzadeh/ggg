@@ -93,6 +93,7 @@ nav {
     }
 }
 
+
 /* Mobile devices (portrait) */
 @media screen and (orientation: portrait) and (max-width: 480px) {
     .hero-section {
@@ -122,13 +123,16 @@ nav {
     font-size: 3rem;
     margin-bottom: 20px;
     z-index: 5;
-}
-
-.hero-section h3 {
+    line-height: 1;
+  }
+  
+  .hero-section h3 {
     font-size: 1.5rem;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     z-index: 5;
-}
+    line-height: 1;
+  }
+  
 
 .cta-button {
     font-size: 1.2rem;

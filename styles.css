@@ -69,6 +69,8 @@ nav {
     padding: 0 30px;
     color: #f6f6f6;
     max-width: 2000px;
+    position: relative; /* Add relative positioning */
+    min-height: -webkit-fill-available; /* Add this property for mobile Safari and Chrome */
 }
 
 
@@ -86,10 +88,10 @@ nav {
 /* Adjust height of overlay to match the height of the hero section */
 @media screen and (max-width: 480px) {
     .hero-section::before {
-        min-height: 100vh;
+        min-height: -webkit-fill-available; /* Add this property for mobile Safari and Chrome */
+        height: 100%;
     }
 }
-
 
 /* Mobile devices (portrait) */
 @media screen and (orientation: portrait) and (max-width: 480px) {

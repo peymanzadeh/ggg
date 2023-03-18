@@ -67,7 +67,7 @@ nav {
     align-items: center;
     text-align: center;
     padding: 0 30px;
-    color: #f6f6f6;
+    color: #fff;
     max-width: 2000px;
     position: relative; /* Add relative positioning */
     min-height: -webkit-fill-available; /* Add this property for mobile Safari and Chrome */
@@ -121,16 +121,16 @@ nav {
 
 .hero-section h1 {
     font-size: 3rem;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     z-index: 5;
     line-height: 1;
   }
   
   .hero-section h3 {
     font-size: 1.5rem;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
     z-index: 5;
-    line-height: 1;
+    line-height: 1.2;
   }
   
 

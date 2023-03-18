@@ -65,7 +65,7 @@ nav {
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 0 30px;
+    /*padding: 0 30px;*/
     color: #f6f6f6;
     max-width: 2000px;
 }

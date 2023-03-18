@@ -70,6 +70,13 @@ nav {
     max-width: 2000px;
 }
 
+/* Adjust height of overlay to match the height of the hero section */
+@media screen and (max-width: 480px) {
+    .hero-section::before {
+        min-height: 100vh;
+    }
+}
+
 /* Mobile devices (portrait) */
 @media screen and (orientation: portrait) and (max-width: 480px) {
     .hero-section {

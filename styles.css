@@ -65,7 +65,7 @@ nav {
     justify-content: center;
     align-items: center;
     text-align: center;
-    /*padding: 0 30px;*/
+    padding: 0 30px;
     color: #f6f6f6;
     max-width: 2000px;
 }
@@ -73,6 +73,7 @@ nav {
 /* Mobile devices (portrait) */
 @media screen and (orientation: portrait) and (max-width: 480px) {
     .hero-section {
+        height: calc(100vh - 70px); /* Reduce height to account for fixed header */
         background-image: url('img/hero-banner-mobile-min.jpg');
     }
 }

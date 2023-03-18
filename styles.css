@@ -15,8 +15,7 @@ h1, h2, h3 {
 }
 
 header {
-    position: absolute;
-    top: 0;
+    position: fixed; /* Change position from absolute to fixed */    top: 0;
     left: 0;
     width: 100%;
     display: flex;

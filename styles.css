@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #151515;
+}
+
+h1, h2, h3 {
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.25);
+    z-index: 10;
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    max-height: 40px;
+    width: auto;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.contact-link {
+    font-size: 1.2rem;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact-link:hover {
+    color: #f7931e;
+}
+
+
+.hero-section {
+    background: url('img/hero-banner-large-desktop-min.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 30px;
+    color: #f6f6f6;
+    max-width: 2000px;
+}
+
+/* Mobile devices (portrait) */
+@media screen and (orientation: portrait) and (max-width: 480px) {
+    .hero-section {
+        background-image: url('img/hero-banner-mobile-min.jpg');
+    }
+}
+
+/* Tablet devices (portrait) */
+@media screen and (orientation: portrait) and (min-width: 481px) and (max-width: 1024px) {
+    .hero-section {
+        background-image: url('img/hero-banner-tablet-min.jpg');
+    }
+}
+
+
+/* Desktop devices */
+@media screen and (min-width: 2000px) {
+    .hero-section {
+        background-size: 2000px; /* Set a fixed value for the background-size property */
+        margin: 0 auto; /* Center the background image */
+    }
+}
+
+
+.hero-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 1;
+}
+
+
+.hero-section h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    z-index: 5;
+}
+
+.hero-section h3 {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    z-index: 5;
+}
+
+.cta-button {
+    font-size: 1.2rem;
+    padding: 10px 30px;
+    border: none;
+    color: #fff;
+    background-color: #f7931e;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    z-index: 5;
+    
+}
+
+.cta-button:hover {
+    background-color: #d87a16;
+}
+
+.banner-header {
+    font-size: 4rem;
+    font-weight: 300;
+    margin-bottom: 20px;
+    
+}
+
+.about-section {
+    color: #f6f6f6;
+}
+
+.services-section{
+    color:#151515;
+}
+
+.about-section,
+.services-section {
+    padding: 60px 30px;
+    text-align: center;
+}
+
+.about-section h2,
+.services-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.services-section {
+    background-color: #f6f6f6;
+}
+
+.service {
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    vertical-align: top;
+}
+
+.service img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    object-position: center;
+    margin-bottom: 10px;
+}
+
+.service h3 {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .service {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}

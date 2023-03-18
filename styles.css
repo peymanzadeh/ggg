@@ -73,7 +73,6 @@ nav {
 /* Mobile devices (portrait) */
 @media screen and (orientation: portrait) and (max-width: 480px) {
     .hero-section {
-        height: calc(100vh - 70px); /* Reduce height to account for fixed header */
         background-image: url('img/hero-banner-mobile-min.jpg');
     }
 }

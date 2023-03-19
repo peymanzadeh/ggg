@@ -163,12 +163,14 @@ nav {
 
 .services-section{
     color:#151515;
+    background-color: #f6f6f6;
 }
 
 .about-section,
 .services-section {
-    padding: 60px 30px;
+    padding: 20px 30px 40px 30px;
     text-align: center;
+    width: 100%;
 }
 
 .about-section h2,
@@ -177,13 +179,10 @@ nav {
     margin-bottom: 20px;
 }
 
-.services-section {
-    background-color: #f6f6f6;
-}
 
 .service {
     display: inline-block;
-    width: 30%;
+    width: 40%;
     padding: 20px;
     vertical-align: top;
 }
@@ -200,6 +199,12 @@ nav {
     font-size: 1.4rem;
     margin-bottom: 10px;
 }
+
+
+.bottom-section-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
 
 @media screen and (max-width: 768px) {
     .service {

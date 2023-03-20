@@ -110,10 +110,6 @@ header {
         min-height: -webkit-fill-available; /* Add this property for mobile Safari and Chrome */
         height: 100%;
     }
-    .logo {
-        max-height: 34px;
-    }
-
 }
 
 
@@ -123,7 +119,10 @@ header {
         background-image: url('img/hero-banner-mobile-min.jpg');
     }
     .contact-link {
-        font-size: 1rem;
+        font-size: 0.9rem;
+    }
+    .logo {
+        max-height: 34px;
     }
 }
 

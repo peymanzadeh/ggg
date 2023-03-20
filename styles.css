@@ -15,45 +15,56 @@ h1, h2, h3 {
 }
 
 header {
-    position: fixed; /* Change position from absolute to fixed */    
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 10px 20px 10px 20px;
     background-color: rgba(0, 0, 0, 0.5);
     z-index: 10;
     font-family: 'Roboto', sans-serif;
-}
-
-.logo-container {
-    display: flex;
-    align-items: center;
-}
-
-.logo {
+  }
+  
+  .icon-container {
+    margin-right: 10px;
+  }
+  
+  .icon {
     max-height: 40px;
     width: auto;
-}
-
-nav {
+  }
+  
+  .logo-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .logo {
+    max-height: 40px;
+    width: auto;
+  }
+  
+  .contact-container {
     display: flex;
     align-items: center;
-}
-
-.contact-link {
+  }
+  
+  .contact-link {
     font-size: 1.2rem;
     color: #fff;
     text-decoration: none;
     transition: color 0.3s ease;
-}
-
-.contact-link:hover {
+  }
+  
+  .contact-link:hover {
     color: #f7931e;
-}
-
+  }
+  
 
 .hero-section {
     background: url('img/hero-banner-large-desktop-min.jpg');
@@ -150,13 +161,6 @@ nav {
     background-color: #d87a16;
 }
 
-.banner-header {
-    font-size: 4rem;
-    font-weight: 300;
-    margin-bottom: 20px;
-    
-}
-
 .about-section {
     color: #f6f6f6;
 }
@@ -202,7 +206,7 @@ nav {
 
 
 .bottom-section-container {
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
   }
 

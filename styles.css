@@ -36,6 +36,10 @@ header {
     max-height: 40px;
     width: auto;
   }
+
+  .icon {
+    flex: 0;
+  }
   
   .logo-container {
     flex: 1;

@@ -22,7 +22,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px 10px 20px;
+    padding: 5px 20px 5px 20px;
     background-color: rgba(0, 0, 0, 0.5);
     z-index: 10;
     font-family: 'Roboto', sans-serif;
@@ -59,6 +59,7 @@ header {
   .contact-container {
     display: flex;
     align-items: center;
+    margin-left:10px;
   }
   
   .contact-link {
@@ -115,12 +116,18 @@ header {
 
 /* Mobile devices (portrait) */
 @media screen and (orientation: portrait) and (max-width: 480px) {
+    header {
+        padding: 5px 10px 5px 10px;
+    }
     .hero-section {
         background-image: url('img/hero-banner-mobile-min.jpg');
     }
     .contact-link {
-        font-size: 0.9rem;
+        font-size: 0.8rem;
     }
+    .icon {
+        max-height: 34px;
+      }
     .logo {
         max-height: 34px;
     }

@@ -212,14 +212,6 @@ header {
     vertical-align: top;
 }
 
-.service img {
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-    object-position: center;
-    margin-bottom: 10px;
-}
-
 .service h3 {
     font-size: 1.4rem;
     margin-bottom: 10px;

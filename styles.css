@@ -48,6 +48,8 @@ header {
     max-height: 40px;
     max-width: 100%;
     width: auto;
+    object-fit: contain;
+    object-position: center;
   }
   
   .contact-container {

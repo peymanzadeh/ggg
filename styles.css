@@ -110,6 +110,10 @@ header {
         min-height: -webkit-fill-available; /* Add this property for mobile Safari and Chrome */
         height: 100%;
     }
+    .logo {
+        max-height: 30px;
+    }
+
 }
 
 

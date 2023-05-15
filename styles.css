@@ -184,6 +184,11 @@ header {
     background-color: #d87a16;
 }
 
+.cta-button-link {
+    text-decoration: none;
+    color:#fff;
+}
+
 .about-section {
     color: #f6f6f6;
 }
